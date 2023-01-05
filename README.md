@@ -1,9 +1,8 @@
-# Spring Boot Developer Tools not compatible with Hibernate ORM
+# Using Spring Boot Developer Tools causes IllegalArgumentException when saving an entity with Hibernate ORM
 
 ## The issue
 
-Spring Boot Developer Tools breaks saving Java entities with Hibernate ORM by
-causing the following exception:
+Using Spring Boot Developer Tools causes IllegalArgumentException when saving an entity with Hibernate ORM. The following exception is thrown:
 
 ```
 java.lang.IllegalArgumentException: object is not an instance of declaring class
