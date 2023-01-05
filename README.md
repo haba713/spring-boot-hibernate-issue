@@ -19,7 +19,8 @@ at org.hibernate.property.access.spi.GetterMethodImpl.get(GetterMethodImpl.java:
 
 The sample code follows the current [Hibernate ORM Getting Started Guide][1].
 
-We use H2 database here but the issue is reproduced also with PostgresSQL.
+We use H2 database with Hibernate 6.1 here but the issue is reproduced also
+using PostgresSQL with Hibernate 5.6. 
 
 There's also a [similar issue about MySQL][1] but for some reason it has been
 closed without fixing the actual issue.
