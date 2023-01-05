@@ -30,9 +30,9 @@ closed without fixing the actual issue.
 2. `cd spring-boot-hibernate-issue/`
 3. `./gradlew bootRun`
 4. See the exception stack trace.
-5. Comment the line
+5. Comment out the line
    ```
-   // developmentOnly 'org.springframework.boot:spring-boot-devtools:3.0.1'
+   developmentOnly 'org.springframework.boot:spring-boot-devtools:3.0.1'
    ```
    in [build.gradle](build.gradle).
 6. `./gradlew bootRun`
